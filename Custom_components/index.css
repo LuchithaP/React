@@ -1,0 +1,87 @@
+.nav {
+  justify-content: space-between;
+  display: flex;
+  background-color:  gold;
+}
+.name {
+  font-size: 50px;
+ 
+  margin-top: 30px;
+}
+
+.nav-items {
+  
+  list-style: none;
+  display: flex;
+  margin-top: 1%;
+
+}
+
+.nav-items li {
+  font-size: 30px;
+  padding: 10px;
+  
+  margin-bottom: 30px;
+}
+
+.nav-logo {
+  width: 200px;
+  
+}
+
+.main-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('./images/back.jpg'); /* Corrected relative path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.main-content::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust the transparency here */
+  z-index: 2;
+}
+
+.topic {
+  display: flex;
+  justify-content: center;
+  font-style: oblique;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 100px;
+  align-items: left;
+  height: 50vh;
+  
+}
+
+.reasons {
+  display: flex;
+  flex-direction: column;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 60px;
+  justify-content: center;
+  align-items: left;
+  height: 70vh;
+  width: 55%;
+  color: black;
+}
+
+.reasons li {
+  padding: 30px;
+}
+
+.footer {
+  background-color: gold;
+  color: black;
+  padding: 10px;
+  text-align: center;
+}
+

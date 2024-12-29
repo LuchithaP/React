@@ -1,0 +1,14 @@
+.nav {
+  display: flex;
+  align-items: center; /* Align items vertically centered */
+}
+
+.nav-items {
+  list-style: none;
+  display: flex;
+  margin-left: auto; /* Push the list to the right */
+}
+
+.nav-items li {
+  margin-left: 20px; /* Add some space between list items */
+}
