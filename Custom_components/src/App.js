@@ -1,14 +1,17 @@
 
-import Header from './Header';
-import MainContent from './MainContent';
-import Footer from './Footer';
+import React from 'react';
+
 
 export default function App() {
   return (
+    /*
     <div>
       <Header />
-      <MainContent />
-      <Footer />
     </div>
+  );
+  */
+ <div>
+  <h1>Hello world</h1>
+ </div>
   );
 }

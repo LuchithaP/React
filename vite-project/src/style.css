@@ -1,0 +1,96 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.nav {
+  
+  display: flex;
+  color: #535C91;
+  background-color: #070F2B;
+  height: 10vh;
+}
+
+.name {
+  color: #61dbfb;
+  font-size: 50px;
+  margin-top: auto;
+  margin-right: auto;
+  text-align: auto;
+}
+
+.nav-items {
+  margin-left: auto;
+  padding-right: 200px;
+  list-style: none;
+  display: flex;
+  margin-top: 20px;
+  
+}
+
+.nav-items li {
+  font-size: 30px;
+  padding: 10px;
+  margin-top: 10px; /* Move the list items down */
+}
+
+.nav-logo {
+  width: 200px;
+  margin-right:auto ;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column; /* Arrange children vertically */
+  justify-content: left;
+  
+  height: 85vh;
+  background-size: cover;
+  background-color: #1B1A55;
+}
+
+
+
+.topic {
+  display: flex;
+  justify-content: left;
+  font-size: 75px;
+  padding: 20px;
+  padding-top: 30px;
+  color: #e7e3ea; /* Ensure text is visible on dark background */
+  text-align: left;
+}
+
+.reasons {
+  display: flex;
+  padding: 20px;
+  flex-direction: column; /* Arrange list items vertically */
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 40px;
+  justify-content: left;
+  
+  align-items: left;
+  color: #ebebef; /* Change font color */
+  padding: 40px;
+  padding-left: 100px;
+}
+
+.reasons li {
+  padding: 10px;
+  padding-left: 10px;
+}
+
+.reasons li::marker {
+  color: #9290C3; /* Change bullet color */
+}
+
+.footer {
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  background-color: #9290C3;
+  color: white;
+  padding-top: 20px;
+  
+}

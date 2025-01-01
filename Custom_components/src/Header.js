@@ -1,12 +1,14 @@
 
+import React from 'react';
 import './index.css';
 
-export default function Header() {
+
+function Header() {
   return (
     <header>
       <nav className="nav">
         <img src="../images/Real-Madrid-Symbol.png" className="nav-logo" alt="Real Madrid Logo" />
-        <h2 className="name">Hala Madrid</h2>
+        <h2 className="name">React Facts</h2>
         <ul className="nav-items">
           <li>Team</li>
           <li>Legacy</li>
@@ -17,3 +19,4 @@ export default function Header() {
   );
 }
 
+export default Header;
