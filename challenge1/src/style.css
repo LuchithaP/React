@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Inter', sans-serif; 
+  
+}
+
+
+
+.page {
+  height: 100vh; /* Ensure the div takes up the full viewport height */
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #21222A;
+  color: #535C91;
+  height: 90px;
+  padding:  30px 25px;
+  
+}
+
+.reactlogo {
+  height: 150px;
+  margin-left: 0%;
+}
+
+.name {
+  margin-right: auto;
+  font-size: 40px;
+  color: #61DAFB;
+  font-weight: 700;
+  margin-left: 0%;
+}
+
+.nav-items {
+  margin-left: auto;
+  font-size: 30px;
+  color: #DEEBF8;
+  font-weight: 600;
+  margin-right: 10px;
+}
+
+
+.content {
+  height: 90vh;
+  background-color: black;
+  padding: 57px 27px;
+  background-image: url('./images/logo1.png');
+  background-repeat: no-repeat;
+  background-position-x:135%;
+  background-position-y: 50% ;
+  background-size: 38%;
+}
+
+.list-name {
+  align-items: center;
+  align-content: center;
+  font-size: 70px;
+  color: white;
+  margin-left: 5%;
+}
+
+.list-items {
+  align-items: center;
+  font-size: 30px;
+  font-weight: 400;
+  color: white;
+  padding: 20px;
+  margin-left: 10%;
+  height: 30px;
+  
+}
+
+.list-items li{
+  padding-block: 15px ;
+  max-width: 70%;
+  line-height: 1.5;
+}
+
+.list-items li::marker {
+  color: #61DAFB;
+  font-size: 2rem;
+}
